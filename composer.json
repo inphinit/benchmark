@@ -1,0 +1,25 @@
+{
+    "name": "inphinit/benchmark",
+    "description": "Test and compare the performance of different codes or snippets",
+    "keywords": ["benchmark"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Nascimento",
+            "email": "brcontainer@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "bin": [
+        "bin/benchmark"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Inphinit\\Toolkit\\Benchmark\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
